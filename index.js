@@ -21,7 +21,7 @@ setTimeout(() => alert("Time is up!"), 1000);
 //      length of time you want for the interval.
 let askAreWeThereYet = () => alert("Are we there yet?");
 console.log(`Setting one second interval that calls function ${askAreWeThereYet}`);
-// setInterval(askAreWeThereYet, 1000);
+setInterval(askAreWeThereYet, 1000);
 
 // Exercise #4: In this step you are going to write a function that takes a callback to better understand 
 //      how callbacks work.
